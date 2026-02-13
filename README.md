@@ -1,6 +1,32 @@
 # Payment_Delay_Project
 Payment Delay Prediction Project  This project focuses on predicting whether a customer will delay payment based on account and usage data. Using a combination of data preprocessing, feature engineering, and multiple machine learning algorithms, the model identifies patterns that lead to delayed payments.
 
+## Business Problem
+
+A telecommunications company provides phone services to a large number of customers.  
+Each customer generates a monthly bill based on their subscription plan, usage behavior, and additional services.
+
+In real-world scenarios, not all customers pay their bills on time. Payment delays can lead to:
+
+- cash flow issues  
+- additional operational costs (reminders, customer support, penalties)  
+- increased financial risk  
+
+The company wants to answer the following question:
+
+**"Can we predict in advance which customers are likely to delay their payment?"**
+
+Using historical customer data, the goal is to build a machine learning model that can identify customers with a high risk of payment delay, allowing the company to take proactive actions before the problem occurs.
+
+## Business Impact
+
+A reliable payment delay prediction model can bring significant business value by:
+
+- reducing financial losses caused by late payments  
+- improving cash flow stability  
+- optimizing customer support efforts by focusing on high-risk customers  
+- enabling proactive communication strategies (reminders, flexible payment options)  
+- increasing overall customer satisfaction through preventive interventions  
 
 ## Project Overview
 The dataset contains customer data including:
