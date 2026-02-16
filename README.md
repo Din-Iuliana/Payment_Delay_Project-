@@ -58,6 +58,25 @@ The goal of the project is to:
 - Correlation heatmaps
 - Countplots for target variable and key categorical features
 
+## Top 5 Factors Influencing Payment Delay
+
+Based on exploratory data analysis (EDA), the following factors have the strongest influence on payment delays:
+
+### 1. Number of Customer Service Calls
+This is the strongest behavioral predictor. Customers who contact customer service more frequently are significantly more likely to delay payments. This reflects customer dissatisfaction, billing issues, or disputes, which directly increase the risk of delayed payments.
+
+### 2. International Plan
+Customers with an international calling plan show a much higher rate of payment delay compared to those without it. The delay rate is approximately three times higher for customers with international plans, likely due to higher and less predictable billing costs.
+
+### 3. Total Day Minutes
+Customers who spend more minutes on daytime calls tend to delay payments more often. Higher daytime usage is associated with higher monthly bills, increasing financial pressure and the likelihood of late payments.
+
+### 4. Total Day Charge
+This variable is strongly correlated with total day minutes and represents the direct financial cost of daytime usage. Higher daily charges significantly increase the probability of payment delays.
+
+### 5. Total International Minutes
+International call usage also contributes to delayed payments. Although the correlation is weaker than for daytime usage, international minutes represent costly and often unexpected charges, which increase the risk of late payments.
+
 ### 3. Modeling
 - Split data into train/test sets
 - Tested multiple algorithms:
@@ -85,6 +104,9 @@ The goal of the project is to:
 ### 6. Predictions
 - Applied the trained and tuned model on the test dataset
 - Generated final predictions for `payment_delay`
+
+## Business Insights
+The results show that payment delays are mainly driven by customer behavior and usage costs. Customers who frequently contact customer service and those subscribed to international plans present the highest risk of delayed payments, indicating potential dissatisfaction and higher billing uncertainty. Additionally, heavy daytime and international usage leads to increased charges, which significantly raises the probability of late payments. From a business perspective, these insights allow the company to proactively identify high-risk customers, apply targeted retention strategies, optimize billing communication, and design early intervention policies (such as payment reminders or personalized offers) to reduce financial risk and improve cash flow stability.
 
 ## Technologies Used
 - Python  
